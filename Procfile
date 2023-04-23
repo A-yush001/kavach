@@ -1,1 +1,1 @@
-web: gunicorn kavach_project.wsgi --log-file -
+web: gunicorn 'kavach_project.wsgi'
