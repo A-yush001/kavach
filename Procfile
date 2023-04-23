@@ -1,0 +1,1 @@
+web: gunicorn kavach_project.wsgi --log-file -
