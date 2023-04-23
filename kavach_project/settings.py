@@ -118,6 +118,16 @@ USE_I18N = True
 
 USE_TZ = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:8000'
+],
+ALLOWED_HOSTS = [
+    'localhost',
+],
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:8000',
+]
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
