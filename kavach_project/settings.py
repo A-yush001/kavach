@@ -125,7 +125,11 @@ CORS_ALLOWED_ORIGINS = [
 CSRF_TRUSTED_ORIGINS = [
     'https://web-production-9924.up.railway.app'
 ]
-
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'bla-bla',
+]
 
 
 # Static files (CSS, JavaScript, Images)
