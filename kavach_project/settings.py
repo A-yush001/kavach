@@ -123,7 +123,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'bla-bla',
-    'https://web-production-9924.up.railway.app/'
+    'web-production-9924.up.railway.app'
     
 ]
 
