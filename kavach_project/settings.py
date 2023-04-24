@@ -118,12 +118,22 @@ USE_I18N = True
 
 USE_TZ = True
 
+CORS_ALLOWED_ORIGINS = [
+    'https://web-production-9924.up.railway.app',
 
+    'http://localhost:3000'
+]
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://web-production-9924.up.railway.app'
+    'http://localhost:3000'
+]
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     'bla-bla',
-    'web-production-9924.up.railway.app'
+    'web-production-9924.up.railway.app',
+
     
 ]
 
