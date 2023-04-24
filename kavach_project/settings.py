@@ -131,11 +131,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://web-production-9924.up.railway.app'
     'http://localhost:3000'
 ]
-CORS_ORIGIN_WHITELIST = (
-'http://localhost:3000',  # for localhost (REACT Default)
-'http://192.168.10.45:3000', # for network
-)
-CORS_ALLOW_CREDENTIALS = True
+
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
