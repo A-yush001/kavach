@@ -133,6 +133,7 @@ ALLOWED_HOSTS = [
     'localhost',
     'bla-bla',
     'web-production-9924.up.railway.app',
+    'localhost:3000',
 
     
 ]
